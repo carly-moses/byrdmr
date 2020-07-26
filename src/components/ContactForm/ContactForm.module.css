@@ -82,3 +82,28 @@ textarea {
     padding: 3%;
   }
 }
+
+@media only screen and (min-width : 1024px) {
+  .formContainer {
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  .formContainer label {
+    margin-bottom: 3%;
+  }
+
+  input[type="text"] {
+    padding-bottom: 3%;
+  }
+
+  textarea {
+    padding-bottom: 12%;
+  }
+
+  .submitButton {
+    width: 35%;
+    height: 50px;
+    padding: 2%;
+  }
+}
