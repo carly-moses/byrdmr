@@ -55,3 +55,30 @@ textarea {
   font-size: 105%;
   padding: 5%;
 }
+
+@media only screen and (min-width : 768px) {
+  .formContainer {
+    width: 85%;
+    margin-top: 15%;
+  }
+
+  .formContainer label {
+    margin: 3% 0 5%;
+  }
+
+  input[type="text"] {
+    padding-bottom: 5%;
+  }
+
+  textarea {
+    padding-bottom: 20%;
+  }
+
+  .submitButton {
+    width: 33%;
+    height: 60px;
+    margin: 5% 0;
+    font-size: 120%;
+    padding: 3%;
+  }
+}
