@@ -1,8 +1,13 @@
 import React from 'react';
+import Intro from './Intro/Intro';
 
 class App extends React.Component {
   render() {
-    return <p>App Connected</p>;
+    return (
+      <span>
+        <Intro />
+      </span>
+    );
   }
 }
 

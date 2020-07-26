@@ -1,0 +1,94 @@
+.navContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 8%;
+  padding-right: 10%;
+}
+
+.nav1, .nav2 {
+  display: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.navBar1, .navBar2 {
+  margin: 4px;
+  padding: 1.25px 0;
+  background: #F06D26;
+}
+
+.navBar2 {
+  width: 60%;
+}
+
+.logo {
+  margin-right: 12%;
+  height: 25px;
+}
+
+@media only screen and (min-width : 768px) {
+  .navContainer {
+    padding-right: 10%;
+  }
+  
+  .logo {
+    margin-right: 24%;
+    height: 30px;
+  }
+
+  .hamburger {
+    width: 6%;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .nav1, .nav2 {
+    font-family: ArchivoRegular;
+    display: flex;
+    flex: .3;
+    justify-content: space-evenly;
+  }
+
+  .nav1 {
+    order: 1;
+  }
+
+  .nav2 {
+    order: 3;
+  }
+
+  .nav1 a, .nav2 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: smaller;
+  }
+
+  .nav1 a:hover, .nav2 a:hover {
+    color: #F06D26;
+  }
+
+  .navContainer {
+    padding: 4%;
+    padding-bottom: 2%;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo {
+    height: 30px;
+    margin: 0 auto;
+    order: 2;
+  }
+
+  .description {
+    margin-top: none;
+  }
+}
