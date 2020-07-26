@@ -1,0 +1,20 @@
+@font-face {
+  font-family: ArchivoBold;
+  src: url('./fonts/Archivo-Bold.ttf');
+}
+
+@font-face {
+  font-family: ArchivoMedium;
+  src: url('./fonts/Archivo-Medium.ttf');
+}
+
+@font-face {
+  font-family: ArchivoRegular;
+  src: url('./fonts/Archivo-Regular.ttf');
+}
+
+html, body, #main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
