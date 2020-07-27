@@ -1,0 +1,109 @@
+.contactForm {
+  background-color: #F4F1EB;
+  height: 100%;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: ArchivoRegular;
+  color: #000000;
+  width: 80%;
+  margin: 10% auto;
+  word-wrap: break-word;   
+}
+
+.formContainer label {
+  margin: 10% 0 5%;
+  font-size: 95%;
+}
+
+input[type="text"], textarea {
+  padding: 0 0 10%;
+  background-color: #F4F1EB;
+  font-size: 130%;
+  color: #9999;
+}
+
+textarea {
+  padding: 0 0 40%;
+  font-family: ArchivoRegular;
+  resize: none;
+}
+
+.formContainer input, textarea {
+  border: none;
+  border-bottom: 1px solid #9999;
+}
+
+.formContainer ::placeholder {
+  background-color: #F4F1EB;
+  color: #9999;
+}
+
+.submitButton {
+  background-color: #F06D26;
+  border: none;
+  margin: 8% auto;
+  color: #FFFF;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 105%;
+  padding: 5%;
+}
+
+@media only screen and (min-width : 768px) {
+  .formContainer {
+    width: 85%;
+    margin-top: 15%;
+  }
+
+  .formContainer label {
+    margin: 3% 0 5%;
+  }
+
+  input[type="text"] {
+    padding-bottom: 5%;
+  }
+
+  textarea {
+    padding-bottom: 20%;
+  }
+
+  .submitButton {
+    width: 33%;
+    height: 60px;
+    margin: 5% 0;
+    font-size: 120%;
+    padding: 3%;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .formContainer {
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  .formContainer label {
+    margin-bottom: 3%;
+  }
+
+  input[type="text"] {
+    padding-bottom: 3%;
+  }
+
+  textarea {
+    padding-bottom: 12%;
+  }
+
+  .submitButton {
+    width: 35%;
+    height: 50px;
+    padding: 2%;
+  }
+}
